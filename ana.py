@@ -1,12 +1,14 @@
-#kullanıcı girişi ilk proje
+﻿#kullanıcı girişi ilk proje
 """
 @author:Burak BOZ
 """
-id = "burak"    #kullanıcı adını belirledik.
-pw = "123"  #şifreyi belirledik
+print(len("KAYIT - OL")*"-", "\nKAYIT - OL\n", len("KAYIT - OL")*"-", sep="")
+id = input("giriş yapıcagınız kullanıcı adınızı giriniz: ")    #giriş yapıcağı kullanıcı adını istedik ve kaydettik
+pw = input("\ngiriş yapıcagınız şifrenizi giriniz: ")  #giriş yapıcağı şifreyi istedik ve kaydettik
 
+print("\n", len("GİRİŞ")*"-", "\nGİRİŞ\n", len("GİRİŞ")*"-", sep="")
 kullanici = input("Kullanıcı Adınızı Giriniz: ")    #kullanıcı adının girilmesini istedik
-sifre = input("Şifrenizi Giriniz: ")    #şifrenin girilmesini istedik.
+sifre = input("\nŞifrenizi Giriniz: ")    #şifrenin girilmesini istedik.
 
 if (id == kullanici and sifre == pw ):  # kullanıcı adı ve şifre doğruysa
     print("\nGiriş Başarıyla Gerçekleşti.\nYükleniyor...")  #içerdeki metni yazdırdık \n alt satıra git demek
